@@ -9,7 +9,7 @@ export function Hero() {
           <div className="max-w-2xl">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
               <BadgeCheck size={16} />
-              <span>Serving Ramankur, Kaneri, Gadchiroli</span>
+              <span>Ramankur, Kaneri, Gadchiroli</span>
             </div>
             
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6 text-balance">
@@ -18,7 +18,7 @@ export function Hero() {
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-lg leading-relaxed">
-              Your dependable local print shop for all everyday needs. From crisp school materials to professional ID cards, we deliver with care and precision.
+              Your dependable printing solution for all everyday needs. From crisp school materials to professional ID cards, we deliver with care and precision.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center gap-4">
@@ -58,8 +58,8 @@ export function Hero() {
                   <span className="text-primary font-serif font-bold text-xl">R</span>
                 </div>
                 <div>
-                  <p className="text-sm font-semibold">Locally Owned</p>
-                  <p className="text-xs text-muted-foreground">Ramankur</p>
+                  <p className="text-sm font-semibold">Owned By</p>
+                  <p className="text-xs text-muted-foreground">Samarth's</p>
                 </div>
               </div>
             </div>
