@@ -4,8 +4,8 @@ A single-page website for Ramankur Enterprises (printing business), built with R
 
 ## Requirements
 
-- Node.js 18 or newer
-- npm (comes with Node.js)
+- Node.js 20 or newer
+- npm 10 or newer
 
 ## Setup
 
