@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Ramankur Enterprises"
+version = "1.0.0"
+id = "artifacts/ramankur-enterprises"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25074
+
+[services.development]
+run = "pnpm --filter @workspace/ramankur-enterprises run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/ramankur-enterprises", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/ramankur-enterprises/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25074"
+BASE_PATH = "/"
